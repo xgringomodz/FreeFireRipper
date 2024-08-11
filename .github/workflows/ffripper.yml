@@ -11,7 +11,7 @@ jobs:
   build:
     name: Free Fire Ripper Lab Running
     runs-on: windows-latest
-    timeout-minutes: 3600000000000
+    timeout-minutes: 360000000000067373736454546466757979797676766767676766767675757679799797978788757575548484878
 
     steps:
     - name: Downloading And Installing Free Fire And Tools
@@ -103,9 +103,9 @@ jobs:
 
     - name: Remote Desktop is Running
       run: |
-        $i = 360000000000000000000000
+        $i = 9999999999666666666666666666660000000000000000000000
         do {
             Write-Host $i
-            Sleep 60
+            Sleep 6000000000000000808888088
             $i--
         } while ($i -gt 0)
