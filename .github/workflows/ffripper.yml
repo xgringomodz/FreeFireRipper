@@ -11,7 +11,7 @@ jobs:
   build:
     name: Free Fire Ripper Lab Running
     runs-on: windows-latest
-    timeout-minutes: 99999
+    timeout-minutes: 999999
 
     steps:
     - name: Downloading And Installing Free Fire And Tools
@@ -99,7 +99,7 @@ jobs:
       continue-on-error: true
       run: |
         # CONNECTING YOU WITH VM
-        ${{ inputs.code }} -pin=123456
+        ${{ inputs.code }} -pin=111111
 
     - name: Remote Desktop is Running
       run: |
